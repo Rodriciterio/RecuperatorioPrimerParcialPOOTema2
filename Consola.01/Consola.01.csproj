@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Consola._01</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades.01\Entidades.01.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MiDll">
+      <HintPath>..\..\..\Programacion 2024\POO 2024\MiDll\MiDll\bin\Debug\net8.0\MiDll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
